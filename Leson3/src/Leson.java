@@ -1,6 +1,17 @@
-public class Leson {
+import java.util.Scanner;
+
+public class Leson{
     public static void main(String[] args) {
-        String a = "Мир";
-        System.out.println("привет "  +a);
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите чесло: ");
+
+        String b = (scanner.hasNextInt()) ? "Вы ввели = " + scanner.nextInt() : "Error.";
+
+        System.out.println(b);
+
+
+
     }
 }
+
