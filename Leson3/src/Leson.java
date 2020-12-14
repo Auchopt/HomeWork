@@ -1,5 +1,6 @@
 public class Leson {
     public static void main(String[] args) {
-        System.out.println("привет");
+        String a = "Мир";
+        System.out.println("привет "  +a);
     }
 }
